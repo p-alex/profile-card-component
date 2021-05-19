@@ -81,14 +81,15 @@ body {
   font-weight: 400;
   margin-bottom: 10px;
   font-size: 18px;
-  color: var(--VeryDarkDesaturatedBlue);
+  color: var(--DarkGrayishblue);
 }
 .card_info p span {
   font-weight: 700;
   margin-right: 5px;
+  color: var(--VeryDarkDesaturatedBlue);
 }
 .card_info small {
-  font-size: 15px;
+  font-size: 14px;
   color: var(--DarkGrayishblue);
 }
 .card_stats {
@@ -113,7 +114,7 @@ body {
 .card_stat small {
   letter-spacing: 0.1rem;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 10px;
   color: var(--DarkGrayishblue);
 }
 @media screen and (max-width: 800px) {
@@ -130,8 +131,8 @@ body {
   .card {
     width: 330px;
     height: 358px;
-    margin-left: -175px;
-    margin-top: -189px;
+    margin-left: -165px;
+    margin-top: -179px;
   }
 }
 @keyframes scale {
